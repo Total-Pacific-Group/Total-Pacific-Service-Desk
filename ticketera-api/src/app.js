@@ -21,7 +21,7 @@ app.use('/api/users', userRoutes);
 
 app.get('/api/health', (req, res) => res.json({ status: 'ok' }));
 
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3008;
 
 // Monitoreo de la cola — solo accesible para admins en producción
 const { estadisticasCola } = require('./services/emailQueue');
