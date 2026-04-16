@@ -169,12 +169,12 @@ Mejoras Futuras
 
 
 
-## 👨‍💻 Autor
+Autor
 
 Desarrollado por **Israel Aguirre**
 
 ---
 
-## 📄 Licencia
+Licencia
 
 MIT License

@@ -35,7 +35,7 @@ app.get('/api/admin/email-queue', async (req, res) => {
   }
 });
 
-sequelize.sync({ alter: true })
+sequelize.sync({ alter: false })
   .then(() => {
     console.log('Base de datos sincronizada');
     app.listen(PORT, () => console.log(`Servidor corriendo en puerto ${PORT}`));
